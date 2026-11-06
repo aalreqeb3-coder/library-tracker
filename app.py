@@ -1,7 +1,6 @@
 import json
 
-def load_books():
-    with open('books.json', 'r') as f:
-        return json.load(f)
+def search_book(title):
+    print("Searching for book:", title)
 
-print("Library Books:", load_books())
+search_book("Clean Code")
