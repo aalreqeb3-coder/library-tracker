@@ -1,6 +1,6 @@
 import json
 
-def search_book(title):
-    print("Searching for book:", title)
+def load_books():
+    print("Loading all books...")
 
-search_book("Clean Code")
+load_books()
